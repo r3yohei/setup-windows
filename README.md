@@ -9,6 +9,8 @@
 - starshipのインストール
     - bashを修飾する
     - starship.tomlをコミット
+- Google Drive
+    - Windows側のフォルダを同期
 - Cursor
 - Docker Desktop for Windows
 - Commit Mono
