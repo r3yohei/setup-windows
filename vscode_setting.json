@@ -1,0 +1,10 @@
+{
+    "workbench.colorTheme": "Default High Contrast",
+    "files.autoSave": "afterDelay",
+    "editor.fontFamily": "CommitMono",
+    "editor.fontLigatures": true,
+    "remote.autoForwardPortsSource": "hybrid",
+    "files.watcherExclude": {
+      "**": true
+    }
+}
