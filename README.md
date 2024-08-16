@@ -42,6 +42,15 @@
     - settings.json
     - rust.json
 - Docker Desktop for Windows
+    - もしかしたらdockerコマンドが権限で使えないかもしれないので、以下のようにdocker.sockの権限を変更する [参考](https://qiita.com/Nw3965/items/8e75da0012cb7a451cc2)
+    ```
+    > ll /var/run/docker.sock
+    srw-rw---- 0 root 16 Aug 19:12 /var/run/docker.sock
+
+    > sudo chmod 666 /var/run/docker.sock
+    > ll /var/run/docker.sock
+    srw-rw-rw- 0 root 16 Aug 19:12 /var/run/docker.sock
+    ```
 - Commit Mono
 - mac-precision-touchpad
 - 英字配列化
