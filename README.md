@@ -27,6 +27,15 @@
     curl -sS https://starship.rs/install.sh | sh
     ```
     - bashを修飾する
+- Linuxコマンド
+    - unzip 
+    ```
+    sudo apt install unzip
+    ```
+    - tree
+    ```
+    sudo apt install tree
+    ```
 - Google Drive
     - Windows側のフォルダを同期
 - Cursor
